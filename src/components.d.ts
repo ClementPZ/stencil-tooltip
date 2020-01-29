@@ -24,7 +24,9 @@ export namespace Components {
     */
     'middle': string;
   }
-  interface MyTooltip {}
+  interface MyTooltip {
+    'tooltiptext': string;
+  }
 }
 
 declare global {
@@ -62,7 +64,9 @@ declare namespace LocalJSX {
     */
     'middle'?: string;
   }
-  interface MyTooltip {}
+  interface MyTooltip {
+    'tooltiptext'?: string;
+  }
 
   interface IntrinsicElements {
     'my-component': MyComponent;
