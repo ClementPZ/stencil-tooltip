@@ -25,6 +25,7 @@ export namespace Components {
     'middle': string;
   }
   interface MyTooltip {
+    'open': boolean;
     'tooltiptext': string;
   }
 }
@@ -65,6 +66,7 @@ declare namespace LocalJSX {
     'middle'?: string;
   }
   interface MyTooltip {
+    'open'?: boolean;
     'tooltiptext'?: string;
   }
 
